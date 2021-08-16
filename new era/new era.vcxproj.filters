@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Общие">
+      <UniqueIdentifier>93c99f1a-a310-467b-94aa-5d9ea26d5e68</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ресурсы">
+      <UniqueIdentifier>7051d959-a1d8-4715-8504-6199b25e62fb</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Содержимое">
+      <UniqueIdentifier>6d6e2d85-f146-42ce-8fe1-be15628b6eb6</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\d3dx12.h">
+      <Filter>Общие</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Общие</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Общие</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Общие</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Общие</Filter>
+    </ClCompile>
+    <ClInclude Include="Content\Sample3DSceneRenderer.h">
+      <Filter>Содержимое</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ShaderStructures.h">
+      <Filter>Содержимое</Filter>
+    </ClInclude>
+    <ClCompile Include="Content\Sample3DSceneRenderer.cpp">
+      <Filter>Содержимое</Filter>
+    </ClCompile>
+    <FxCompile Include="Content\SamplePixelShader.hlsl">
+      <Filter>Содержимое</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SampleVertexShader.hlsl">
+      <Filter>Содержимое</Filter>
+    </FxCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Ресурсы</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Ресурсы</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Ресурсы</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Ресурсы</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Ресурсы</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Ресурсы</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Ресурсы</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
